@@ -1,0 +1,99 @@
+/* <!-- 기본 클래스 --> */
+.pull-left { float: left; }
+.pull-right { float:right; }
+
+/* <!-- 네비게이션 --> */
+#main-navigation {
+    border-top: 3px double #C8C8C8;
+    border-bottom: 3px double #C8C8C8;
+    margin-bottom: 20px;
+    height: 45px;
+    position: fixed;
+    margin-top: 120px;
+    width: 905px;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+}
+
+.outer-menu-item {
+    float: left;
+    position: relative;
+}
+
+.outer-menu-item:hover {
+    background: rgb(172, 172, 172);
+    color: black;
+}
+
+.menu-title {
+    display: block;
+    height: 29px;
+    text-align: center;
+    padding: 5px 20px;
+    width: 130px;
+    color: inherit;
+    text-decoration: none;
+    margin-top: 7px;
+}
+
+.inner-menu {
+    position: absolute;
+    top: 46px; left: 0;
+    width: 100%;
+
+    background: white;
+    box-shadow: 0 2px 6px rgb(172, 172, 172);
+    z-index: 1000;
+
+    text-align: center
+}
+
+.inner-menu-item > a {
+    display: block;
+    padding: 5px 10px;
+    color: rgb(172, 172, 172);
+}
+
+.inner-menu-item > a:hover {
+    background: rgb(172, 172, 172);
+    color: white;
+}
+/* <!-- 네비게이션 내부의 검색 --> */
+.search-bar {
+    height: 26px;
+    padding: 7px;
+}
+.input-search {
+    display: block;
+    float: left;
+
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 15px 0 0 15px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+
+    width: 120px; height: 24px;
+    padding: 0 0 0 10px;
+    font-size: 12px;
+    color: #555555;
+}
+
+.input-search:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.input-search-submit {
+    /* display: block; */
+    float: left;
+
+    width: 50px; height: 26px;
+    border-radius: 0 15px 15px 0;
+    border: 1px solid #CCCCCC;
+
+    margin-left: -1px;
+
+    vertical-align: top;
+    /* display: inline-block; */
+}

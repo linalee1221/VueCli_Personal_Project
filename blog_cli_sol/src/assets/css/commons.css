@@ -1,0 +1,61 @@
+/* <!-- 초기화 --> */
+* { 
+    margin: 0; padding: 0;
+    font-family: '맑은 고딕', 'Malgun Gothic', Gothic, sans-serif;
+}
+a { text-decoration: none; }
+li { list-style: none; }
+
+
+/* <!-- 페이지 --> */
+body {
+    width: 950px; 
+    margin: 0 auto;
+    background: rgba(233, 233, 233, 0.644);
+}
+
+#catimage2 {
+    border-radius: 10px;
+}
+
+#app {
+    background-color: rgb(255, 255, 255); 
+    padding: 10px 20px;
+    border-radius: 0 0 20px 20px;
+    top: 0px;
+
+}
+/* 테이블 스타일 */
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+th {
+    text-align: center;
+    border: rgb(131, 131, 131);
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightgray;
+}
+tr, td {
+    border: rgb(131,131,131);
+    background-color:rgba(234, 234, 234, 0.757);
+    padding: 8px;
+}
+
+#main-footer {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#time {
+    font-size: 15px;
+}
+

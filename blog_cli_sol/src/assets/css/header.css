@@ -1,0 +1,22 @@
+/* <!-- 헤더 --> */
+
+#main-header { 
+    padding: 40px 50px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 805px;
+    top: 0;
+    text-align: center;
+    text-shadow: 5px 4px 3px rgba(128, 128, 128, 0.561);
+    
+    
+ }
+.master-title { 
+    font-size: 30px; 
+    font-style: italic;
+    text-shadow: 5px 4px 3px rgba(128, 128, 128, 0.561);
+}
+.master-description {
+    font-size: 15px; font-weight: 500;
+    color: #383838;
+}
